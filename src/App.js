@@ -2,8 +2,8 @@
 import React from 'react';
 
 //import Category component
-import { Category } from './components/category';
+import { ListOfCategories } from './components/ListOfCategories';
 
-const App = () => <Category/>;
+const App = () => <ListOfCategories/>;
 
 export default App;
