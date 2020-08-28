@@ -1,6 +1,9 @@
 //import react
 import React from 'react';
 
-const App = () => <h1>Set up</h1>;
+//import Category component
+import { Category } from './components/category';
 
-export default App
+const App = () => <Category/>;
+
+export default App;
