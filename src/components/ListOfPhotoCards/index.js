@@ -4,6 +4,9 @@ import React, { useState, useEffect } from 'react'
 //import Photo cards
 import { PhotoCard } from '../PhotoCard'
 
+//import styled components
+import { List } from './styles'
+
 export const ListOfPhotoCards = () => {
   const [cards, setCards] = useState([]);
 
@@ -20,8 +23,8 @@ export const ListOfPhotoCards = () => {
   console.log(cards)
 
   return (
-    <ul>
+    <List>
       {cards.map((pet, i) => <PhotoCard key={i} cover={pet} id={i}/>)}
-    </ul>
+    </List>
   )
 };

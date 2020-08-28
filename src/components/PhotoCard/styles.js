@@ -2,12 +2,12 @@
 import styled from 'styled-components';
 
 //image wrapper
-export const ImgWrapper = styled.div`
+export const ImgWrapper = styled.figure`
   border-radius: 10px;
   display: block;
   height: 0;
   overflow: hidden;
-  padding: 56.25% 0 0 0;
+  padding: 50% 0 0 0;
   position: relative;
   width: 100%; 
 `
@@ -19,6 +19,7 @@ export const Image = styled.img`
   object-fit: cover;
   position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
 `
 
@@ -30,4 +31,9 @@ export const Button = styled.button`
   & svg {
     margin-right: 4px;
   }
+`
+
+//container
+export const Container = styled.article`
+  margin: 0 auto
 `
