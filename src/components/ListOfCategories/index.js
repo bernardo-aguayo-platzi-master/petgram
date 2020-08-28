@@ -10,7 +10,7 @@ export const ListOfCategories = () => {
 
   useEffect(()=>{
     const getPets = () => {
-      fetch('https://dog.ceo/api/breeds/image/random/5')
+      fetch('https://dog.ceo/api/breeds/image/random/15')
         .then(response => response.json())
         .then(data => setCategories(data.message));
     }
@@ -22,7 +22,7 @@ export const ListOfCategories = () => {
     <List>
       {categories.map((pet, i) => (
         <Item key={i}>
-          <Category cover={pet}/>
+          <Category cover={pet} path={i}/>
         </Item>
       ))}
     </List>
