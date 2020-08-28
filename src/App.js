@@ -10,9 +10,13 @@ import { ListOfPhotoCards } from './components/ListOfPhotoCards'
 //import global styles
 import { GlobalStyles } from './GlobalStyles'
 
+//import Logo
+import Logo from './components/Logo'
+
 const App = () => (
   <>
     <GlobalStyles />
+    <Logo/>
     <ListOfCategories />
     <ListOfPhotoCards/>
   </>
