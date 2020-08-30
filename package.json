@@ -1,5 +1,5 @@
 {
-  "name": "petgram",
+  "name": "petgram", 
   "version": "3.0.0",
   "description": "React app that emulates instagram instead people we have animals",
   "main": "index.js",
